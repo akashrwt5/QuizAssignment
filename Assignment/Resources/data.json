@@ -1,0 +1,14 @@
+ [
+			  {"question": "To Create Mutable Object __ Is Used", "answers": ["let", "var", "Both A & B", "None"], "correct": 1},
+			  {"question": "We Can Return Multiple Values In Swift From Function By Using?", "answers": ["Array", "Tuple", "Both A & B", "None"], "correct": 1},
+             
+             {"question": "Which Of The Following Framework Is Not Used In IOS ?", "answers": [ "AppKit Framework", "UIKit Framework"," Foundation Framework", " CoreMotion Framework"], "correct": 0},
+			  
+              {"question": "Application Running In Foreground But Currently Not Receiving Any Events .what Is The Current State Of Application?", "answers": ["Background State","Suspended State","Inactive State", "Active State"], "correct": 2},
+			  
+              {"question": "To Create Contants In Swift We Use Keyword?",
+			  "answers": ["Const", "var", "Both A & B", "let"], "correct": 3},
+              
+			  {"question": "Which Of The Following Is Incorrect Data Type In SWIFT ?", "answers": ["UInt", "Double", "Char", "Optional"], "correct": 3}
+		  ]
+
