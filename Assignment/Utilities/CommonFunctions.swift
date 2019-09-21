@@ -20,7 +20,7 @@ class CommonFunctions {
     func readJSONFromFile() -> [QuestionType]
     {
         var questionsData:[QuestionType]
-        guard let path = Bundle.main.path(forResource: "data", ofType: "json") else { return [] }
+        guard let path = Bundle.main.path(forResource: "question", ofType: "json") else { return [] }
         let url = URL(fileURLWithPath: path)
         do {
             let data = try Data(contentsOf: url)

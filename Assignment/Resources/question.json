@@ -9,6 +9,6 @@
               {"question": "To Create Contants In Swift We Use Keyword?",
 			  "answers": ["Const", "var", "Both A & B", "let"], "correct": 3},
               
-			  {"question": "Which Of The Following Is Incorrect Data Type In SWIFT ?", "answers": ["UInt", "Double", "Char", "Optional"], "correct": 3}
+			  {"question": "Which Of The Following Is Incorrect Data Type In SWIFT ?", "answers": ["UInt", "Double", "Char", "Optional"], "correct": 2}
 		  ]
 
