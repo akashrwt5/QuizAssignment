@@ -33,7 +33,7 @@ class QuestionViewController: UIViewController {
     var answerButtons: [UIButton] {
         return [option1Button, option2Button, option3Button, option4Button]
     }
-    let quizMaxTime:Int = 60   // quiz max time in seconds
+    let quizMaxTime:Int = 600   // quiz max time in seconds
     var quizTime:Int = 0
     var timer:Timer!
     override func viewDidLoad() {
@@ -45,7 +45,7 @@ class QuestionViewController: UIViewController {
             self.showNoQuestionAvailable()
         }else{
             self.navigationController?.setNavigationBarHidden(true, animated: false)
-            self.pickQuestion()
+            self.showQuestion()
             self.timeLeftLbl.text = CommonFunctions.shared.timeString(time: self.quizTime)
             self.setUpTimer()
         }
@@ -57,7 +57,7 @@ class QuestionViewController: UIViewController {
         quiz = questionsData.enumerated().makeIterator()
     }
     
-    private func pickQuestion() {
+    private func showQuestion() {
         
         UIView.animate(withDuration: 0.75) {
             self.answerButtons.forEach { $0.alpha = 1 }
@@ -140,7 +140,7 @@ class QuestionViewController: UIViewController {
 
         }
         
-        pickQuestion()
+        showQuestion()
         
     }
     
