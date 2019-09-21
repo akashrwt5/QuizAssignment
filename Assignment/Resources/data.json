@@ -4,7 +4,7 @@
              
              {"question": "Which Of The Following Framework Is Not Used In IOS ?", "answers": [ "AppKit Framework", "UIKit Framework"," Foundation Framework", " CoreMotion Framework"], "correct": 0},
 			  
-              {"question": "Application Running In Foreground But Currently Not Receiving Any Events .what Is The Current State Of Application?", "answers": ["Background State","Suspended State","Inactive State", "Active State"], "correct": 2},
+              {"question": "for unwrapping value inside optional what should we use?", "answers": ["@","?","!", "none of therse"], "correct": 2},
 			  
               {"question": "To Create Contants In Swift We Use Keyword?",
 			  "answers": ["Const", "var", "Both A & B", "let"], "correct": 3},
